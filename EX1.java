@@ -1,5 +1,5 @@
 /* Giống nhau: Đều giống nhau về cách khai báo và gán giá trị
-   Khác nhau: Hằng có giá trị nhất định không thay đổi xuyên suốt chương trình, còn biến thì có thể */
+   Khác nhau: Hằng có giá trị nhất định không thay đổi xuyên suốt chương trình, còn biến thì có thể. */
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
 public class EX1 {

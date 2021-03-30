@@ -12,7 +12,7 @@ public class EX2 {
         System.out.println("b = " + b);
         c = sc.nextInt();
         System.out.println("c = " + c);
-        delta = (b*b - (4*a*c))/(2*a);
+        delta = (b*b - (4*a*c));
         if(delta<0) {
             System.out.println("PT vo nghiem");
         }else if(delta==0) {

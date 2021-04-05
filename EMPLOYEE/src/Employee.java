@@ -1,3 +1,7 @@
+/*Lớp là một mô hình chi tiết để bạn sử dụng tạo ra các Đối tượng. 
+Lớp định nghĩa tất cả các thuộc tính và các phương thức cần thiết của một Đối tượng.
+Mỗi Đối tượng phải thuộc một Lớp nào đó. 
+Tất cả các Đối tượng thuộc về cùng một Lớp có cùng các thuộc tính và các phương thức.*/
 import java.util.Scanner;
 
 public class Employee {
@@ -74,7 +78,7 @@ public class Employee {
         this.basicSalary = basicSalary;
     }
     public void display(){
-        System.out.println(getId() + " - " + getName() +" - " + getDateOfBirth() +" - " + getAddress() +" - " + getPosition() +" - " + getBasicSalary());
+        System.out.println(getId() + " - " + getName() +" - " + getDateOfBirth() +" - "+ getAddress() + getPosition() +" - "+ getBasicSalary());
     }
     
 }

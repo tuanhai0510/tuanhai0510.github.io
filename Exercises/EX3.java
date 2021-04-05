@@ -37,6 +37,8 @@ public class EX3 {
         }
         System.out.println("Tong so nguyen to la: " + sum);
         
+        System.out.println("k: ");
+        int k = sc.nextInt();
     }
     public static boolean check(int n){
         if(n <= 1){

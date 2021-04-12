@@ -82,9 +82,11 @@ public class Nhanvien {
         setAge(Integer.parseInt(sc.nextLine()));
         System.out.println("Phone Number: ");
         setPhoneNumber(sc.nextLong());
+        sc.nextLine();
+
         System.out.println("Email: ");
         setEmail(sc.nextLine());
-        sc.nextLine();
+        
         System.out.println("Basic Salary: ");
         setBasicSalary(Integer.parseInt(sc.nextLine()));
     }
